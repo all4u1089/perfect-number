@@ -3,6 +3,11 @@ var isPerfectNumber = function isPerfectNumber(number, callback) {
   if (isNaN(number)) {
     return callback(new Error('it must be a numeric'));
   }
+
+  if (number % 1 !== 0) {
+    return callback(new Error('number must be integer'));
+  }
+
   if (number < 0) {
     return callback(new Error('number must be positive'));
   }
