@@ -1,13 +1,16 @@
 {
   "name": "perfect-number",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Checks if a number is perfect.",
   "main": "src/index.js",
   "scripts": {
     "pretest": "eslint src",
     "test": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --recursive --timeout 5000"
   },
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/all4u1089/perfect-number"
+  },
   "keywords": [
     "perfect-number",
     "number",
