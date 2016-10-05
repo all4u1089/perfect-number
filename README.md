@@ -5,7 +5,7 @@
 
 # Installation
 
-$ npm install --save node-query-example
+$ npm install --save perfect-number
 
 # Usage
 
