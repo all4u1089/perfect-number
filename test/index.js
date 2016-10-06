@@ -11,8 +11,8 @@ describe('Check perfect number test case', () => {
     });
   });
 
-  it('returns error when value is -6.2', (done) => {
-    check.isPerfectNumber(-6.2, (err) => {
+  it('returns error when value is 6.2', (done) => {
+    check.isPerfectNumber(6.2, (err) => {
       expect(err).to.not.equal(null);
       expect(err.message).to.equal('number must be integer');
       done();
